@@ -9,7 +9,7 @@ def get_user_name():
         user_name = input("What is your character's name? ")
         
         if len(user_name) > 10:
-            print("Please enter a name with less than  and save in excel file 10 characters.")
+            print("Please enter a name with less than 10 characters.")
             continue
         else:
             return user_name
