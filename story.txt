@@ -1,0 +1,17 @@
+Adam wakes up in the morning.
+He brushes his teeth.
+He takes a bath.
+He has breakfast.
+Then he checked Instagram.
+He goes to class.
+Adam was not paying attention in class.
+He played a lot with his friends.
+<<<<<<< HEAD
+1
+hihihi
+=======
+Adam went to recess.
+Adam ordered a sandwich.
+Adam ate with his friends. 
+>>>>>>> c2eda465bcf4c02484d506a56b59c20605b897c7
+--vbuuWVOBSV
