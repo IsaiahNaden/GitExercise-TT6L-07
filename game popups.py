@@ -1,13 +1,12 @@
 import tkinter as tk
 from tkinter import messagebox
 
-def ask_question():
+def prompt_user_to_continue():
     response = messagebox.askyesno("","Do you want to continue the game?")
-    if response == "Yes":
-        next()
-
-    else :
+    if response:
+        print("The user wants to continue playing the game.")
+    else:
         exit()
 
-exit1=ask_question()
+prompt_user_to_continue()
 
