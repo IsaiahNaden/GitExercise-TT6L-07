@@ -1,8 +1,7 @@
 import openpyxl
 
-#userprofile = openpyxl.load_workbook("userprofile.xlsx")
-#profilesheet = userprofile.active
-
+userprofile = openpyxl.load_workbook("userprofile.xlsx")
+profilesheet = userprofile.active
 
 def get_user_name():
     while True:
@@ -52,6 +51,7 @@ profilesheet[f'C{profilesheet.max_row}'] = user_gender
 userprofile.save("userprofile.xlsx")
 
 print("Data saved ")
+
 
 
  
