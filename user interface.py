@@ -48,9 +48,11 @@ profilesheet[f'A{profilesheet.max_row + 1}'] = user_name
 profilesheet[f'B{profilesheet.max_row}'] = user_age
 profilesheet[f'C{profilesheet.max_row}'] = user_gender
 
+
 userprofile.save("userprofile.xlsx")
 
 print("Data saved")
+
 
 
 

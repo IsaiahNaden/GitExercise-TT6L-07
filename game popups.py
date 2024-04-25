@@ -8,5 +8,5 @@ def prompt_user_to_continue():
     else:
         exit()
 
-prompt_user_to_continue()
+prompt_user_to_continue ()
 
