@@ -50,9 +50,7 @@ profilesheet[f'C{profilesheet.max_row}'] = user_gender
 
 userprofile.save("userprofile.xlsx")
 
-print("Data saved ")
-
-.
+print("Data saved")
 
 
 
